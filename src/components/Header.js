@@ -103,7 +103,7 @@ const Header = () => {
           variants={fadeIn('down', 'tween', 1.2, 1.4)}
           className='order-1 lg:order-none lg:ml-[11rem]'
           >
-            <a href=''>
+            <a href='#about'>
               {/* if header is active make logo 90 x 90px else 107 x 107px */}
               <img className={`${isActive ?  'w-[90px] h-[90px]' : 'w-[107px] h-[107px]'}`}
                src={LogoWhite} alt=''/>

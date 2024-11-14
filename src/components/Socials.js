@@ -10,7 +10,9 @@ const Socials = () => {
         return(
           <a 
           key={index} 
-          href={item.href} target='_blank' 
+          href={item.href} 
+          // eslint-disable-next-line
+          target='_blank' 
           className='border border-white/20 rounded-full w-[35px] h-[35px] flex items-center justify-center text-sm hover:text-accent hover:border-accent transition-all'
           >
             {item.icon}

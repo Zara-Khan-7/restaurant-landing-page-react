@@ -11,7 +11,7 @@ import { fadeIn, plateVariants, staggerContainer } from '../variants';
 
 const About = () => {
   // destructure about data
-  const { pretitle, title, subtitle, btnText, btnIcon, image, plates } = aboutData;
+  const { pretitle, title, subtitle, btnText, image, } = aboutData;
   return (
       <section className='min-h-[620px]'>
         <div className='container mx-auto min-h-[620px]'>
